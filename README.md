@@ -16,7 +16,7 @@ Data Source → Extract & Load → Transform → Data Warehouse → Analytics
 
 ## 📌 Arquitetura do Pipeline
 
-![Arquitetura do pipeline](arquiteura-do-projeto/arquitetura.png)
+![Arquitetura do pipeline](arquitetura-do-projeto/arquitetura.png)
 
 ---
 
