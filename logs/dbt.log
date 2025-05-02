@@ -1,0 +1,188 @@
+[0m21:52:16.719571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015ED1CC3140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015ED4A67740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015ED4A643B0>]}
+
+
+============================== 21:52:16.723569 | 5013f32e-6b6a-4163-b32f-033f3fb2bedf ==============================
+[0m21:52:16.723569 [info ] [MainThread]: Running with dbt=1.9.4
+[0m21:52:16.724071 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Rafasansou\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:52:16.737584 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/Rafasansou/.dbt')}
+[0m21:52:16.738087 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:52:56.418585 [debug] [MainThread]: Starter project path: C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:52:56.440615 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:52:56.441113 [info ] [MainThread]: Setting up your profile.
+[0m21:55:12.795271 [info ] [MainThread]: Profile datawarehouse written to C:\Users\Rafasansou\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:55:12.795774 [debug] [MainThread]: Command `dbt init` succeeded at 21:55:12.795774 after 176.17 seconds
+[0m21:55:12.796271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015ED1CC3140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015ED1BE8440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015ED4CA6120>]}
+[0m21:55:12.796771 [debug] [MainThread]: Flushing usage events
+[0m21:55:13.854247 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:03:42.878841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136176E96A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000136169C3A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013617101A60>]}
+
+
+============================== 22:03:42.882343 | 0109c941-871c-44d5-a999-056808dffe18 ==============================
+[0m22:03:42.882343 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:03:42.882842 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rafasansou\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:03:42.896017 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:03:42.896515 [info ] [MainThread]: python version: 3.12.1
+[0m22:03:42.897016 [info ] [MainThread]: python path: C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\.venv\Scripts\python.exe
+[0m22:03:42.897516 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:03:42.964017 [info ] [MainThread]: Using profiles dir at C:\Users\Rafasansou\.dbt
+[0m22:03:42.964518 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rafasansou\.dbt\profiles.yml
+[0m22:03:42.965016 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\dbt_project.yml
+[0m22:03:42.966019 [info ] [MainThread]: adapter type: postgres
+[0m22:03:42.966518 [info ] [MainThread]: adapter version: 1.9.0
+[0m22:03:42.967016 [info ] [MainThread]: Configuration:
+[0m22:03:42.967016 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:03:42.967516 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:03:42.968017 [info ] [MainThread]: Required dependencies:
+[0m22:03:42.968017 [debug] [MainThread]: Executing "git --help"
+[0m22:03:42.984017 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:03:42.984515 [debug] [MainThread]: STDERR: "b''"
+[0m22:03:42.985016 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:03:42.985517 [info ] [MainThread]: Connection:
+[0m22:03:42.986016 [info ] [MainThread]:   host: dpg-d0a0mdh5pdvs73bh3eig-a.oregon-postgres.render.com
+[0m22:03:42.986516 [info ] [MainThread]:   port: 5432
+[0m22:03:42.987016 [info ] [MainThread]:   user: postgres123
+[0m22:03:42.987519 [info ] [MainThread]:   database: dbsales_r3j4
+[0m22:03:42.988018 [info ] [MainThread]:   schema: public
+[0m22:03:42.988018 [info ] [MainThread]:   connect_timeout: 10
+[0m22:03:42.988516 [info ] [MainThread]:   role: None
+[0m22:03:42.989017 [info ] [MainThread]:   search_path: None
+[0m22:03:42.989017 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:03:42.989516 [info ] [MainThread]:   sslmode: None
+[0m22:03:42.989516 [info ] [MainThread]:   sslcert: None
+[0m22:03:42.990016 [info ] [MainThread]:   sslkey: None
+[0m22:03:42.990519 [info ] [MainThread]:   sslrootcert: None
+[0m22:03:42.990519 [info ] [MainThread]:   application_name: dbt
+[0m22:03:42.991518 [info ] [MainThread]:   retries: 1
+[0m22:03:42.992020 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m22:03:43.201515 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:03:44.066901 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:03:44.067402 [debug] [MainThread]: On debug: select 1 as id
+[0m22:03:44.067898 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:03:45.545119 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "dpg-d0a0mdh5pdvs73bh3eig-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+connection to server at "dpg-d0a0mdh5pdvs73bh3eig-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+[0m22:03:46.976182 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m22:03:46.976182 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m22:03:46.976681 [debug] [MainThread]: On debug: No close available on handle
+[0m22:03:46.977181 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m22:03:46.977681 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m22:03:46.977681 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\dbt_project.yml> not found
+
+[0m22:03:46.978181 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "dpg-d0a0mdh5pdvs73bh3eig-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  password authentication failed for user "postgres123"
+  connection to server at "dpg-d0a0mdh5pdvs73bh3eig-a.oregon-postgres.render.com" (35.227.164.209), port 5432 failed: FATAL:  SSL/TLS required
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m22:03:46.979185 [debug] [MainThread]: Command `dbt debug` failed at 22:03:46.978681 after 4.24 seconds
+[0m22:03:46.979185 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:03:46.979682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013616D68CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013616F59640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013616FAAEA0>]}
+[0m22:03:46.980181 [debug] [MainThread]: Flushing usage events
+[0m22:03:47.707266 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:17:14.499127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB1EC996D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB1C776E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB1C774830>]}
+
+
+============================== 22:17:14.502628 | 0169946a-5a90-46e0-9651-b3ccad6efb59 ==============================
+[0m22:17:14.502628 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:17:14.503632 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Rafasansou\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:17:30.317126 [debug] [MainThread]: Starter project path: C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:17:30.327093 [info ] [MainThread]: 
+Your new dbt project "datawarehouse2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:17:30.328091 [info ] [MainThread]: Setting up your profile.
+[0m22:19:36.394397 [info ] [MainThread]: Profile datawarehouse2 written to C:\Users\Rafasansou\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:19:36.395397 [debug] [MainThread]: Command `dbt init` succeeded at 22:19:36.395397 after 142.04 seconds
+[0m22:19:36.395896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB1E959940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB1DEA0350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB1DEA0320>]}
+[0m22:19:36.395896 [debug] [MainThread]: Flushing usage events
+[0m22:19:37.099506 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:19:51.616841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124AB84F380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124AE5592E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124AE559D30>]}
+
+
+============================== 22:19:51.620341 | 3971437a-76f4-4333-8399-cb579e657567 ==============================
+[0m22:19:51.620341 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:19:51.620842 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rafasansou\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:19:51.633872 [info ] [MainThread]: dbt version: 1.9.4
+[0m22:19:51.634372 [info ] [MainThread]: python version: 3.12.1
+[0m22:19:51.634872 [info ] [MainThread]: python path: C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\.venv\Scripts\python.exe
+[0m22:19:51.635371 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m22:19:51.681782 [info ] [MainThread]: Using profiles dir at C:\Users\Rafasansou\.dbt
+[0m22:19:51.682288 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rafasansou\.dbt\profiles.yml
+[0m22:19:51.682788 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\dbt_project.yml
+[0m22:19:51.683287 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:19:51.683789 [debug] [MainThread]: Command `dbt debug` failed at 22:19:51.683789 after 0.21 seconds
+[0m22:19:51.683789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124AE598C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124AE5F73E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000124AE2E7440>]}
+[0m22:19:51.684288 [debug] [MainThread]: Flushing usage events
+[0m22:19:52.221681 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:30:13.052808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D39F1E150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D393B28A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D39A55940>]}
+
+
+============================== 22:30:13.055810 | ae91d704-9a52-493a-b382-fa3c5952f242 ==============================
+[0m22:30:13.055810 [info ] [MainThread]: Running with dbt=1.9.4
+[0m22:30:13.056808 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '..', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:30:25.836200 [debug] [MainThread]: Starter project path: C:\Users\Rafasansou\Documents\workshop-data-warehouse-do-zero\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:30:25.845410 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:30:25.845911 [info ] [MainThread]: Setting up your profile.
+[0m22:31:23.569704 [info ] [MainThread]: Profile datawarehouse written to ..\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:31:23.570706 [debug] [MainThread]: Command `dbt init` succeeded at 22:31:23.570706 after 70.65 seconds
+[0m22:31:23.571204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D39F1E150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D39891730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023D3983FCB0>]}
+[0m22:31:23.571204 [debug] [MainThread]: Flushing usage events
+[0m22:31:24.223151 [debug] [MainThread]: An error was encountered while trying to flush usage events
